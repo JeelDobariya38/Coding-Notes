@@ -1,0 +1,17 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --primary-color: #81C3D7;
+    --primary-text-color: #26547C;
+    --secondary-color: #EF476F;
+    --secondary-text-color: #B3FFB3;
+    --side-color: #FFD166;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
