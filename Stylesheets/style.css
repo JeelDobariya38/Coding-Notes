@@ -1,4 +1,4 @@
-.header {
+.header{
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
@@ -7,6 +7,11 @@
 .heading {
     color: var(--primary-text-color);
     padding: 10px;
+}
+
+.heading h1 {
+    font-size: 5vw;
+    letter-spacing: -0.5vw;
 }
 
 .navigation-bar {
@@ -18,26 +23,12 @@
 }
 
 .navigation-bar a{
-    font-size: 20px;
+    font-size: max(9px,2vw);
+    letter-spacing: max(-100px,-0.2vw);
     width: 20%;
     text-align: center;
 }
 
 .navigation-bar a:hover{
     color: var(--secondary-text-color);
-}
-
-@media (max-width: 800px)
-{
-    .navigation-bar a{
-        font-size: 15px;
-        width: 25%;
-    }
-}
-
-@media (max-width: 450px)
-{
-    .navigation-bar {
-        display: none;
-    }
 }
