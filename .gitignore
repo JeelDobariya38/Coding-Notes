@@ -1,2 +1,3 @@
 # the ide defualt folder
 .vscode/
+*.code-workspace
