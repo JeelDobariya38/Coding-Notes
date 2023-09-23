@@ -12,6 +12,11 @@
 .heading h1 {
     font-size: 5vw;
     letter-spacing: -0.5vw;
+    transition: 0.2s color;
+}
+
+.heading h1:hover {
+    color: var(--primary-action-color);
 }
 
 .navigation-bar {
@@ -27,8 +32,9 @@
     letter-spacing: max(-100px,-0.2vw);
     width: 20%;
     text-align: center;
+    transition: 0.2s color;
 }
 
 .navigation-bar a:hover{
-    color: var(--secondary-text-color);
+    color: var(--primary-action-color);
 }
