@@ -3,15 +3,36 @@
     margin: 0px;
 }
 
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
 :root {
     --primary-color: #81C3D7;
     --primary-text-color: #26547C;
-    --secondary-color: #EF476F;
+    --primary-action-color: #000000;
+    --secondary-color: #EF476F9F;
     --secondary-text-color: #B3FFB3;
     --side-color: #FFD166;
+    --text-shadow-color: #1111111F;
+    --box-shadow-color: #1111111F;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.coming-soon {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming-soon h1 {
+    font-size: max(14px,min(60px,4vw));
 }
