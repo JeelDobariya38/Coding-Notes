@@ -23,3 +23,16 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+.coming-soon {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming-soon h1 {
+    font-size: max(14px,min(60px,4vw));
+}
