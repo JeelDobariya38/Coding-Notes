@@ -16,6 +16,15 @@
     width: 320px;
     height: 140px;
     padding: 8px;
-    border: solid black 8px;
     border-radius: 24px;
+}
+
+.snippities-container {
+    margin: 0.5rem;
+}
+
+.snippits-container {
+    padding: 1rem;
+    border: solid black 8px;
+    border-radius: 12px;
 }

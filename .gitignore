@@ -1,3 +1,6 @@
 # the ide defualt folder
 .vscode/
 *.code-workspace
+
+# project specfic dir
+expirementing/
