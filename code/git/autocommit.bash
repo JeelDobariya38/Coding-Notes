@@ -7,14 +7,14 @@ echo "Running tests...."
 
 # test command that exit with 0 on passing
 echo "No Tests Found!!!"
-echo "For add them edit the script!!!!"
+echo "For add them, edit the script!!!!"
 
-if [ $? -eq 0 ]; then
-    echo "Passed all test cases!!!!"
-else
-    echo "Test Failed!!!"
-    exit 1
-fi
+# if [ $? -eq 0 ]; then
+#     echo "Passed all test cases!!!!"
+# else
+#     echo "Test Failed!!!"
+#     exit 1
+# fi
 
 echo ""
 

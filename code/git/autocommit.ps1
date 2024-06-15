@@ -3,14 +3,14 @@ Write-Host "Running tests...."
 
 # test command that exit with 0 on passing
 Write-Host "No Tests Found!!!!"
-Write-Host "For add them edit the script!!!!"
+Write-Host "For add them, edit the script!!!!"
 
-if ( $LASTEXITCODE -eq 0 ) {
-    Write-Host "Passed all test cases!!!!"
-} else {
-    Write-Host "Test Failed!!!"
-    EXIT 1
-}
+# if ( $LASTEXITCODE -eq 0 ) {
+#     Write-Host "Passed all test cases!!!!"
+# } else {
+#     Write-Host "Test Failed!!!"
+#     EXIT 1
+# }
 
 Write-Host ""
 
